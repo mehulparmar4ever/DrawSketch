@@ -3,6 +3,8 @@ Draw Sketch has the basic functions for drawing from the beginning. Anyone can e
 
 ![Sketch_animation1](https://raw.github.com/wiki/daihase/resource_manage/gifs/sketch-animation.gif)
 
+I have used only few features in this example, but you can use all.
+
 ## :memo: Features
 - [x] Pen tool
 - [x] Eraser tool
