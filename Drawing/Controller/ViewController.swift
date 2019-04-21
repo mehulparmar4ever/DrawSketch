@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Drawing
 //
-//  Created by abhi on 8/13/18.
-//  Copyright © 2018 abhi. All rights reserved.
+//  Created by mehul on 8/13/18.
+//  Copyright © 2018 mehul. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     //MARK:
-    //MARK: - Brush View
+    //MARK: - Initialise Brush View
     @IBOutlet weak var viewBrushHeader: UIView!
     
     @IBOutlet weak var sliderIncDec: UISlider!
@@ -46,6 +46,9 @@ class ViewController: UIViewController {
         sketchView.lineColor        = lineColor
         
         self.generateRandomColor()
+        
+        //You can add done button event.
+        //And you can create drawing to image and share/save that image
     }
 
     override func didReceiveMemoryWarning() {

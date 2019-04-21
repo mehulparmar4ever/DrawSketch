@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,7 +41,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ColorListCell" reuseIdentifier="ColorListCell" id="6oq-OL-5nZ" customClass="ColorListCell" customModule="Infields" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ColorListCell" reuseIdentifier="ColorListCell" id="6oq-OL-5nZ" customClass="ColorListCell" customModule="Drawing" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -79,7 +79,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yn0-wc-TDp">
-                                        <rect key="frame" x="0.0" y="15" width="50" height="50"/>
+                                        <rect key="frame" x="10" y="15" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="9Ld-hp-FNe"/>
                                             <constraint firstAttribute="height" constant="50" id="RQj-aK-R5u"/>
@@ -105,7 +105,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCC-ea-kvO">
-                                        <rect key="frame" x="333" y="15" width="42" height="50"/>
+                                        <rect key="frame" x="323" y="15" width="42" height="50"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="DONE"/>
                                         <userDefinedRuntimeAttributes>
@@ -265,7 +265,7 @@
                                 <constraints>
                                     <constraint firstItem="Yn0-wc-TDp" firstAttribute="centerY" secondItem="fxr-TL-8cL" secondAttribute="centerY" constant="-10" id="AxE-HR-fpd"/>
                                     <constraint firstItem="Kv5-PT-DNI" firstAttribute="leading" secondItem="fxr-TL-8cL" secondAttribute="leading" constant="30" id="EAd-1s-1xg"/>
-                                    <constraint firstAttribute="trailing" secondItem="FCC-ea-kvO" secondAttribute="trailing" id="PKG-P5-kVa"/>
+                                    <constraint firstAttribute="trailing" secondItem="FCC-ea-kvO" secondAttribute="trailing" constant="10" id="PKG-P5-kVa"/>
                                     <constraint firstItem="FCC-ea-kvO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fxr-TL-8cL" secondAttribute="leading" constant="20" symbolic="YES" id="PwT-Lu-RRv"/>
                                     <constraint firstItem="FCC-ea-kvO" firstAttribute="height" secondItem="Yn0-wc-TDp" secondAttribute="height" id="WgC-Im-8SE"/>
                                     <constraint firstAttribute="bottom" secondItem="Kv5-PT-DNI" secondAttribute="bottom" id="bQy-6o-L1W"/>
@@ -274,7 +274,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Kv5-PT-DNI" secondAttribute="trailing" constant="30" id="jtg-yZ-QUE"/>
                                     <constraint firstItem="dAF-pb-vlc" firstAttribute="centerX" secondItem="fxr-TL-8cL" secondAttribute="centerX" id="ryf-6E-AHd"/>
                                     <constraint firstAttribute="height" constant="100" id="vXT-lM-4Mj"/>
-                                    <constraint firstItem="Yn0-wc-TDp" firstAttribute="leading" secondItem="fxr-TL-8cL" secondAttribute="leading" id="xD6-Pz-tX6"/>
+                                    <constraint firstItem="Yn0-wc-TDp" firstAttribute="leading" secondItem="fxr-TL-8cL" secondAttribute="leading" constant="10" id="xD6-Pz-tX6"/>
                                 </constraints>
                             </view>
                         </subviews>

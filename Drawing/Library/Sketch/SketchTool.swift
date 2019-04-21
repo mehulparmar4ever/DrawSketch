@@ -1,9 +1,9 @@
 //
 //  SketchTool.swift
-//  Sketch
+//  Drawing
 //
-//  Created by daihase on 04/06/2018.
-//  Copyright (c) 2018 daihase. All rights reserved.
+//  Created by mehul on 04/06/2018.
+//  Copyright (c) 2018 . All rights reserved.
 //
 
 import UIKit
